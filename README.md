@@ -1,16 +1,3 @@
-This is a great set of scripts\! You have a solid portfolio here covering **Model Analysis** (HRRR), **Point Analysis** (Soundings), and **Observational Analysis** (MRMS Radar).
-
-Below is a professional `README.md` file tailored specifically to the code you just uploaded. It explains what the tools do, what libraries are needed, and how to run them.
-
-### How to add this to GitHub
-
-1.  Go to your repository main page.
-2.  Click **Add file** \> **Create new file**.
-3.  Name the file: `README.md`
-4.  Paste the content below into the text box.
-5.  Click **Commit changes**.
-
------
 
 # Meteorological Analysis Tools
 
