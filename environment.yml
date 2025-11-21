@@ -1,0 +1,16 @@
+name: severe_wx_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - herbie-data
+  - metpy
+  - xarray
+  - cfgrib
+  - cartopy
+  - matplotlib
+  - pandas
+  - numpy
+  - imageio
+  - requests
+  - tqdm
