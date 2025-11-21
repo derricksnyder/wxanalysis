@@ -55,26 +55,26 @@ Downloads and plots high-resolution observational radar products from the Multi-
 
 ## 🛠️ Installation & Requirements
 
-These scripts rely on a specific set of meteorological Python libraries. It is recommended to use **Conda** (Miniforge or Anaconda) to manage the environment.
+To make setup easy, this project includes an `environment.yml` file. This will automatically install Python and all required libraries (Herbie, MetPy, Cartopy, etc.) in one step.
 
-### 1\. Create the Environment
+**Prerequisites:** You need to have [Anaconda](https://www.anaconda.com/) or [Miniforge](https://github.com/conda-forge/miniforge) installed.
 
-```bash
-conda create -n weather-tools python=3.10
-conda activate weather-tools
-```
+1.  **Clone (download) this repository:**
+    ```bash
+    git clone [https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git](https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git)
+    cd YOUR-REPO-NAME
+    ```
 
-### 2\. Install Dependencies
+2.  **Create the environment:**
+    ```bash
+    conda env create -f environment.yml
+    ```
 
-You will need the following packages from `conda-forge`:
-
-```bash
-conda install -c conda-forge xarray numpy matplotlib cartopy metpy herbie-data imageio cfgrib tqdm requests
-```
-
-*Note: `cfgrib` is required for reading the MRMS GRIB2 files.*
-
------
+3.  **Activate the environment:**
+    ```bash
+    conda activate severe_wx_env
+    ```
+    *(Note: You must activate this environment every time you want to run the scripts)*
 
 ## 🚀 Usage
 
